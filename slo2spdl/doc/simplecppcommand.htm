@@ -1,0 +1,59 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>SimpleCommand</title>
+</head>
+
+<body>
+
+<h1>SimpleCommand</h1>
+<p>The simple command plug-in implements a custom command in C++.</p>
+<p>Name: C++ Simple Command<br>
+Scipting name: SimpleCPPCommand</p>
+<p>XSI installs automatically this custom command at start up and also installs
+a help menu item under Help | C++ Simple Command Help in the main menu bar for
+viewing this page.<br>
+</p>
+<h2><strong><font face="Arial" size="5">How to Compile and install the C++
+simple command plug-in</font></strong></h2>
+<h2>Windows</h2>
+<h3>Compiling</h3>
+<p>Open the project in MSDEV, select a compilation target (debug or release) and
+compile.<br>
+</p>
+<h3>Installing</h3>
+<p>The plug-in is self-installing and doesn't need to be installed explicitly.
+You only need to set the XSI_PLUGINS environment variable with your plug-in path
+and XSI will take care of installing it automatically at start up.<br>
+<br>
+The XSI_PLUGINS variable can be set in &lt;XSI installation
+folder&gt;\Application\bin\setenv.bat as follows:<br>
+<br>
+&nbsp;&nbsp;&nbsp; set XSI_PLUGINS=%XSI_PLUGINS%;%XSISDK_ROOT%\examplesCommands\SimpleCommand<br>
+<h2>Linux</h2>
+<p>Before running any command, you have to set up your XSI environment. To
+achieve this, run the following command in a shell (tcsh) :<br>
+<br>
+&nbsp;&nbsp;&nbsp; source [Install dir]/.xsi_[version]<br>
+<h3>Compiling</h3>
+<p>In the shell (tcsh),go to the &lt;XSI installation folder&gt;/XSISDK/examples/Commands/SimpleCommand/cpp
+folder and issue the following command:<br>
+<br>
+&nbsp;&nbsp;&nbsp; gmake<br>
+<h3>Cleaning</h3>
+<p>In the shell (tcsh), issue the following command:<br>
+<br>
+&nbsp;&nbsp;&nbsp; gmake clean<br>
+<h3>Installing</h3>
+<p>No explicit installation is necessary. The variable XSI_PLUGINS takes care of
+installation. Just remove the comment '#' that block the definition of
+XSI_PLUGINS for this example in .xsi_version file.<br>
+<br>
+</p>
+
+</body>
+
+</html>

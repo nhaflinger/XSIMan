@@ -1,0 +1,4 @@
+EXPORTS
+	XSILoadPlugin					@1 PRIVATE
+	XSIUnloadPlugin					@2 PRIVATE	
+	slb2spdl_Execute				@3 PRIVATE
