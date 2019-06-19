@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XSIMan", "XSIMan.vcproj", "{23769518-87FE-4142-83D9-D4F7334F093B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		DebugXSI5 = DebugXSI5
+		DebugXSI6 = DebugXSI6
+		Release = Release
+		ReleaseXSI5 = ReleaseXSI5
+		ReleaseXSI6 = ReleaseXSI6
+		XSIMan_3Delight = XSIMan_3Delight
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{23769518-87FE-4142-83D9-D4F7334F093B}.Debug.ActiveCfg = Debug|Win32
+		{23769518-87FE-4142-83D9-D4F7334F093B}.Debug.Build.0 = Debug|Win32
+		{23769518-87FE-4142-83D9-D4F7334F093B}.DebugXSI5.ActiveCfg = DebugXSI5|Win32
+		{23769518-87FE-4142-83D9-D4F7334F093B}.DebugXSI5.Build.0 = DebugXSI5|Win32
+		{23769518-87FE-4142-83D9-D4F7334F093B}.DebugXSI6.ActiveCfg = DebugXSI6|Win32
+		{23769518-87FE-4142-83D9-D4F7334F093B}.DebugXSI6.Build.0 = DebugXSI6|Win32
+		{23769518-87FE-4142-83D9-D4F7334F093B}.Release.ActiveCfg = Release|Win32
+		{23769518-87FE-4142-83D9-D4F7334F093B}.Release.Build.0 = Release|Win32
+		{23769518-87FE-4142-83D9-D4F7334F093B}.ReleaseXSI5.ActiveCfg = ReleaseXSI5|Win32
+		{23769518-87FE-4142-83D9-D4F7334F093B}.ReleaseXSI5.Build.0 = ReleaseXSI5|Win32
+		{23769518-87FE-4142-83D9-D4F7334F093B}.ReleaseXSI6.ActiveCfg = ReleaseXSI6|Win32
+		{23769518-87FE-4142-83D9-D4F7334F093B}.ReleaseXSI6.Build.0 = ReleaseXSI6|Win32
+		{23769518-87FE-4142-83D9-D4F7334F093B}.XSIMan_3Delight.ActiveCfg = XSIMan_3Delight|Win32
+		{23769518-87FE-4142-83D9-D4F7334F093B}.XSIMan_3Delight.Build.0 = XSIMan_3Delight|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
